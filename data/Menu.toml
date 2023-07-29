@@ -1,0 +1,7 @@
+[mnkappa]
+    Name = "M-N-Kappa"
+    URL = "http://ritchievink.com/mnkappa"
+
+[about]
+    Name = "about"
+    URL = "/about/"

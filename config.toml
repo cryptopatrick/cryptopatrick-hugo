@@ -1,0 +1,83 @@
+baseURL = "localhost"
+#baseurl = "https://www.cryptopatrick.com/"
+relativeURLs = true
+title = "Seamless Global Nature"
+copyright = "(c) 2023 CryptoPatrick"
+languageCode = "en-EN"
+metaDataFormat = "yaml"
+theme = "seamless"
+paginate = 10
+paginatePath = "page"
+#canonifyurls = true
+
+disqusShortname = "cryptopatrick"
+#discus short name ? "www--cryptopatrick--com"?
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "CryptoPatrick"
+    email = "cryptopatrick@gmail.com"
+
+[params]
+author = "CryptoPatrick"
+#googleAnalytics = ""
+sharingicons = true
+keywords = ["keyword 1", "keyword 2", "keyword 3"]
+profilePicture = "/profile.jpg"
+
+#Optional syntax highlight starts here
+# styles: https://github.com/alecthomas/chroma/tree/master/styles
+# styles gallery: https://xyproto.github.io/splash/docs/
+#[markup]
+ [markup.highlight]
+#   linenos=false
+   style="igor"
+   #lineNumbersInTable=false
+#   tabWidth=4
+#Optional syntax highlight ends here.
+
+# Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    #highlight = "nord"
+
+[markup.goldmark.renderer]
+unsafe= true  # allows html in markdown
+
+[params.highlight]
+style = "github"
+languages = ["rust", "python"]
+
+[[params.social]]
+url = "https://github.com/cryptopatrick"
+fa_icon = "fa-github"
+
+
+[[params.social]]
+url = "https://linkedin.com/in/cryptopatrick/"
+fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[params.socialshare]]
+url = "https://linkedin.com/in/cryptopatrick"
+fa_icon = "fa-linkedin-square"
+
+[[params.static_pages]]
+url = "/portfolio/"
+tag = "Portfolio"
+
+[[params.static_pages]]
+url = "/about/"
+tag = "About"
+
+
+
