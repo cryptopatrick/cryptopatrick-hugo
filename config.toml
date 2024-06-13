@@ -2,7 +2,7 @@ baseURL = "localhost"
 #baseurl = "https://www.cryptopatrick.com/"
 relativeURLs = true
 title = "Seamless Global Nature"
-copyright = "(c) 2023 CryptoPatrick"
+copyright = "'I write to understand as much as to be understood.' —Elie Wiesel<br> (c) 2024 CryptoPatrick"
 languageCode = "en-EN"
 metaDataFormat = "yaml"
 theme = "seamless"
@@ -11,6 +11,7 @@ paginatePath = "page"
 #canonifyurls = true
 
 disqusShortname = "cryptopatrick"
+enableEmoji = true
 #discus short name ? "www--cryptopatrick--com"?
 
 [permalinks]
@@ -37,8 +38,19 @@ profilePicture = "/profile.jpg"
 # styles gallery: https://xyproto.github.io/splash/docs/
 #[markup]
  [markup.highlight]
+    style="abap"
+    #style="algol"	
+    #style="algol-nu"	
+    #style="arduino"	
+    #style="autumn"	
+    #style="average"	
+    #style="base16-snazzy"	
+    #style="borland"	
+    #style="bw"	
+   #style="xcode"
+   #style="github-dark"
 #   linenos=false
-   style="igor"
+   #style="igor"
    #lineNumbersInTable=false
 #   tabWidth=4
 #Optional syntax highlight ends here.
@@ -60,24 +72,36 @@ fa_icon = "fa-github"
 
 
 [[params.social]]
-url = "https://linkedin.com/in/cryptopatrick/"
-fa_icon = "fa-linkedin-square"
+url = "https://x.com/cryptopatrick"
+fa_icon = "fa-twitter"
 
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+#[[params.social]]
+#url = "/index.xml"
+#fa_icon = "fa-rss"
 
 [[params.socialshare]]
 url = "https://linkedin.com/in/cryptopatrick"
 fa_icon = "fa-linkedin-square"
 
-[[params.static_pages]]
-url = "/portfolio/"
-tag = "Portfolio"
+#[[params.static_pages]]
+#url = "/portfolio/"
+#tag = "Portfolio"
 
-[[params.static_pages]]
-url = "/about/"
-tag = "About"
+#[[params.static_pages]]
+#url = "/about/"
+#tag = "About"
 
+#[[params.mermaid]]
+#theme = "dark"
+#align = "center"
 
-
+#theme = "dark"
+#theme = "default" - This is the default theme for all diagrams.
+#theme = "neutral" - This theme is great for black and white documents that will be printed.
+#theme = "dark" - This theme goes well with dark-colored elements or dark-mode.
+#theme = "forest" - This theme contains shades of green.
+#theme = "base" - This is the only th
+#params:
+#   mermaid:
+#       theme: "dark"
+#       align: "center"

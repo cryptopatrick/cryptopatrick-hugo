@@ -1,27 +1,63 @@
-# GymRat: Strength Training Assistant
 
-[**download here**](https://github.com/cryptopatrick/gymrat)
+# arrange
 
-{{< figure src="/img/gymrat/name.png" title="GymRat Training Assistant" >}}
+Convenience functions for populating an array with values from a range.
 
+Build status  
+https://crates.io/crates/arrange
 
-Description of GymRat. 
-
-More about GymRat.
-
+[**Documentation**](https://docs.rs/arrange)
 
 ---
 
-# Discore: Disc Golf Scorecard
+# graph_mvcc
 
-[**download here**](https://github.com/cryptopatrick/discore)
+https://crates.io/crates/graph_mvcc
 
-{{< figure src="/img/discore/name.png" title="Discore Disc Golf Scorecard" >}}
+Rust library for working with Multi-Version Concurrency Control in Graph Databases.
 
+---
 
-Description of Discore.  
+# MiniFix
 
-More about Discore.
+https://crates.io/crates/minifix  
+A Minimal FIX Client
+
+---
+
+# Hugin
+
+https://crates.io/crates/hugin  
+A visual cpu profiler.
+
+---
+
+# Munin
+https://crates.io/crates/munin  
+ A visual heap memory profiler.
+
+---
+
+# Radar
+https://crates.io/crates/radar  
+Rust library for working with radar data formats.
+
+https://asf.alaska.edu/information/data-formats/data-formats-in-depth/
+---
+
+# RExDNA
+https://crates.io/crates/rexdna    
+Regular Expressions optimized for DNA.
+
+---
+
+# SBE
+https://crates.io/crates/sbe  
+Simple Binary Encoding (SBE)
+
+---
+
+{{< figure src="/img/gymrat/name.png" title="GymRat Training Assistant" >}}
 
 
 
