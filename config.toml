@@ -1,5 +1,5 @@
-baseURL = "localhost"
-#baseurl = "https://www.cryptopatrick.com/"
+# baseURL = "localhost"
+baseurl = "https://www.cryptopatrick.com/"
 relativeURLs = true
 title = "Seamless Global Nature"
 copyright = "'I write to understand as much as to be understood.' —Elie Wiesel<br> (c) 2024 CryptoPatrick"
@@ -18,9 +18,9 @@ enableEmoji = true
     post = "/blog/:year/:month/:day/:slug/"
     code = "/:slug/"
 
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
+#[taxonomies]
+#    tag = "tags"
+#    topic = "topics"
 
 [author]
     name = "CryptoPatrick"
@@ -39,14 +39,14 @@ profilePicture = "/profile.jpg"
 #[markup]
  [markup.highlight]
     style="abap"
-    #style="algol"	
-    #style="algol-nu"	
-    #style="arduino"	
-    #style="autumn"	
-    #style="average"	
-    #style="base16-snazzy"	
-    #style="borland"	
-    #style="bw"	
+    #style="algol"
+    #style="algol-nu"
+    #style="arduino"
+    #style="autumn"
+    #style="average"
+    #style="base16-snazzy"
+    #style="borland"
+    #style="bw"
    #style="xcode"
    #style="github-dark"
 #   linenos=false
@@ -66,30 +66,31 @@ unsafe= true  # allows html in markdown
 style = "github"
 languages = ["rust", "python"]
 
-[[params.social]]
-url = "https://github.com/cryptopatrick"
-fa_icon = "fa-github"
+#[[params.social]]
+#url = "https://x.com/cryptopatrick"
+#fa_icon = "fa-twitter"
 
+#[[params.social]]
+#url = "https://github.com/cryptopatrick"
+#fa_icon = "fa-github"
 
-[[params.social]]
-url = "https://x.com/cryptopatrick"
-fa_icon = "fa-twitter"
+#[[params.social]]
+#url = "https://crates.io/users/cryptopatrick"
+#fa_icon = "fa-cubes"
+
 
 #[[params.social]]
 #url = "/index.xml"
 #fa_icon = "fa-rss"
 
-[[params.socialshare]]
-url = "https://linkedin.com/in/cryptopatrick"
-fa_icon = "fa-linkedin-square"
+[[params.static_pages]]
+#url = "/about/"
+#tag = "About"
 
-#[[params.static_pages]]
+[[params.static_pages]]
 #url = "/portfolio/"
 #tag = "Portfolio"
 
-#[[params.static_pages]]
-#url = "/about/"
-#tag = "About"
 
 #[[params.mermaid]]
 #theme = "dark"
