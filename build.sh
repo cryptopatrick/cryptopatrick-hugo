@@ -57,4 +57,4 @@ git push origin master --force
 
 # Come Back
 cd ..
-cd cryptopatrick
+cd cryptopatrick-hugo
