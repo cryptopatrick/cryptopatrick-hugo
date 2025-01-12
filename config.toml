@@ -6,8 +6,11 @@ copyright = "'I write to understand as much as to be understood.' —Elie Wiesel
 languageCode = "en-EN"
 metaDataFormat = "yaml"
 theme = "seamless"
-paginate = 10
-paginatePath = "page"
+pagerSize = 10
+#paginate = 10
+#pagination.path = "page"
+path = "page"
+#paginatePath = "page"
 #canonifyurls = true
 
 disqusShortname = "cryptopatrick"
