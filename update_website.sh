@@ -39,6 +39,7 @@ cp -r * ../../cryptopatrick.github.io/
 
 # Go to ../cryptopatrick.github.io/
 cd ..
+cp CNAME ../cryptopatrick.github.io/
 cd ../cryptopatrick.github.io/
 # Add changes to git.
 git add -A
