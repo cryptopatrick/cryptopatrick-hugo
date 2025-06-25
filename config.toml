@@ -41,17 +41,19 @@ profilePicture = "/profile.jpg"
 # styles gallery: https://xyproto.github.io/splash/docs/
 #[markup]
  [markup.highlight]
-    style="abap"
+    #noClasses = false
+    #style="abap"
+    #style="monokailight"
     #style="algol"
-    #style="algol-nu"
-    #style="arduino"
+    #style="tango"
     #style="autumn"
+    style="arduino"
     #style="average"
     #style="base16-snazzy"
     #style="borland"
     #style="bw"
-   #style="xcode"
-   #style="github-dark"
+        #style="xcode"
+   #style="github-light"
 #   linenos=false
    #style="igor"
    #lineNumbersInTable=false
@@ -66,8 +68,9 @@ profilePicture = "/profile.jpg"
 unsafe= true  # allows html in markdown
 
 [params.highlight]
-style = "github"
+#style = "github-light"
 languages = ["rust", "python"]
+customCSS = ["css/customcode.css"]
 
 #[[params.social]]
 #url = "https://x.com/cryptopatrick"
