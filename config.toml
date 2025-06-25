@@ -32,7 +32,7 @@ enableEmoji = true
 [params]
 author = "CryptoPatrick"
 #googleAnalytics = ""
-sharingicons = true
+#sharingicons = true
 keywords = ["keyword 1", "keyword 2", "keyword 3"]
 profilePicture = "/profile.jpg"
 
