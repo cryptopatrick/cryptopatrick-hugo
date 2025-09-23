@@ -96,9 +96,11 @@ tag = "About"
 icon = "fa-male"
 
 [[params.static_pages]]
-url = "/https://100-days-of-vibe.vercel.app"
+url = "https://100-days-of-vibe.vercel.app"
 tag = "100DaysOfVibe"
 icon = "fa-paper-plane"
+#url = "/https://100-days-of-vibe.vercel.app"
+# Placing the / before https puts the url after the root www.cryptpatric.com
 
 [[params.static_pages]]
 url = "https://x.com/cryptopatrick"

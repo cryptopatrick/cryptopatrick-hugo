@@ -1,4 +1,8 @@
 
+---
+title: "About"
+type: "page"
+---
 
 # Everydays
 
