@@ -7,7 +7,8 @@ languageCode = "en-EN"
 metaDataFormat = "yaml"
 theme = "seamless"
 pagerSize = 10
-paginate = 50
+pagination.pagerSize = 50
+#paginate = 50
 #pagination.path = "page"
 path = "page"
 #paginatePath = "page"
@@ -92,23 +93,28 @@ customCSS = ["css/customcode.css"]
 [[params.static_pages]]
 url = "/about/"
 tag = "About"
+icon = "fa-male"
 
 [[params.static_pages]]
 url = "/portfolio/"
-tag = "Portfolio"
+tag = "100DaysOfVibe"
+icon = "fa-paper-plane"
 
 [[params.static_pages]]
 url = "/twitter"
-tag = "Twitter"
-
+tag = " "
+icon = "fa-twitter"
+# icon = "fa-square-x-twitter"
 
 [[params.static_pages]]
 url = "/github/"
-tag = "GitHub"
+tag = " "
+icon = "fa-github"
 
 [[params.static_pages]]
 url = "/instagram/"
-tag = "Instagram"
+tag = " "
+icon = "fa-instagram"
 
 
 #[[params.mermaid]]
