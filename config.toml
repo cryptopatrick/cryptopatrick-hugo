@@ -96,23 +96,23 @@ tag = "About"
 icon = "fa-male"
 
 [[params.static_pages]]
-url = "/portfolio/"
+url = "/https://100-days-of-vibe.vercel.app"
 tag = "100DaysOfVibe"
 icon = "fa-paper-plane"
 
 [[params.static_pages]]
-url = "/twitter"
+url = "https://x.com/cryptopatrick"
 tag = " "
 icon = "fa-twitter"
 # icon = "fa-square-x-twitter"
 
 [[params.static_pages]]
-url = "/github/"
+url = "https://github.com/cryptopatrick?tab=repositories"
 tag = " "
 icon = "fa-github"
 
 [[params.static_pages]]
-url = "/instagram/"
+url = "https://www.instagram.com/cryptopatrickk/"
 tag = " "
 icon = "fa-instagram"
 
