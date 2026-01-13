@@ -80,27 +80,6 @@ Responsible for developing the company's website, primarily using HTML for all d
 
 ---
 
-## Community and Communication
-
-1. **Co-organizer**  
-Helped organize the Unofficial Libra Blockchain Hackathon 2019, where programmers
-around the world competed to develop applications using Facebook Libra’s cryptocurrency,
-Libra. The prize was 1 Bitcoin (today worth over 1,000,000 SEK).  
-   Link: https://medium.com/@hacklibra/hacklibra-winners-announced
-
-2. **Keynote Speaker**  
-Speaker at SEB HQ (Stockholm) for Sweden's Capital Market Experts annual meeting, 2015. Gave a one-hour presentation on Bitcoin. The crowd roared with laughter when I
-claimed that the price of a single bitcoin would one day reach well above 10,000 dollars.
-
-3. **Project Leader**  
-Assisted Charlie Lee, the creator of the Litecoin, in a trademark infringement case. 
-The dispute was resolved by the European Union Patent Office OHIM.
-I enlisted the services of a laywer, and also helped organize crowdfunding to cover
-the legal cost.
-
-
----
-
 
 ## Writings
 
@@ -128,17 +107,6 @@ Thesis work for B.Sc. in Computational Linguistics - thesis not published.
 
 ---
 
-## Skillset
-1. **Programming**
-Rust, Python, TypeScript, Prolog, PineScript, HTML, CSS, C, Scala, PyTorch, JAX, MLX.
-
-2. **Infrastructure**
-Linux, MacOS, PowerShell, Git, WebAssembly, Docker Kubernetes, Terraform, GCP, Figma, React, Tailwind, FastAPI, SQLAlchemy, Axum, Postgres, Redis, OpenAPI, Mintlify.
-
-3. **Artificial Intelligence**
-LLM development from scratch, OpenAI API, MCP, LangChain, LangGraph, RAG architectures, Qdrant Vector DB, Vercel AI SDK, LM Studio, evaluation and fine-tuning frameworks.
----
-
 ## Community and Communication
 
 __Co-organizer__  
@@ -155,8 +123,19 @@ At SEB HQ (Stockholm) for the Capital Market Experts annual meeting,
 claimed that the price of a single bitcoin would one day reach well above 10,000 dollars.  
 
 __Project Leader__  
-Assisted Charlie Lee, the creator of the [Litecoin](https://litecoin.com/) cryptocurrency during a
-trademark infringement case. The dispute was resolved by the EU Patent Office in Spain.  
+Assisted Charlie Lee, the creator of the [Litecoin](https://litecoin.com/) cryptocurrency during a trademark infringement case. The dispute was resolved by the EU Patent Office in Spain.  
+
+---
+
+## Skillset
+1. **Programming**
+Rust, Python, TypeScript, Prolog, PineScript, HTML, CSS, C, Scala, PyTorch, JAX, MLX.
+
+2. **Infrastructure**
+Linux, MacOS, PowerShell, Git, WebAssembly, Docker Kubernetes, Terraform, GCP, Figma, React, Tailwind, FastAPI, SQLAlchemy, Axum, Postgres, Redis, OpenAPI, Mintlify.
+
+3. **Artificial Intelligence**
+LLM development from scratch, OpenAI API, MCP, LangChain, LangGraph, RAG architectures, Qdrant Vector DB, Vercel AI SDK, LM Studio, evaluation and fine-tuning frameworks.
 
 ---
 
