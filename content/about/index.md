@@ -13,7 +13,7 @@ I'm a trained *Computational Linguist*, specializing in *Large Language Models (
 
 ## Education
 
-**Chalmers and the University of Gothenburg** Sweden *(Paused)*  
+**Chalmers and the University of Gothenburg** Sweden*  
 Currently enrolled in the Bachelor of Science programme in Mathematics.
 
 **ProWave**, Online *2015*  
@@ -153,13 +153,10 @@ __Keynote Speaker__
 At SEB HQ (Stockholm) for the Capital Market Experts annual meeting,
 2015. Gave a one-hour presentation on Bitcoin. The crowd roared with laughter when I
 claimed that the price of a single bitcoin would one day reach well above 10,000 dollars.  
-Link: https://www.nea.nu/webinar-bitcoin-vad-ar-det-och-hur-fungerar-det/
 
 __Project Leader__  
 Assisted Charlie Lee, the creator of the [Litecoin](https://litecoin.com/) cryptocurrency during a
 trademark infringement case. The dispute was resolved by the EU Patent Office in Spain.  
-Link: https://x.com/LTCFoundation/status/710425904602861568
-
 
 ---
 
