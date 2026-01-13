@@ -1,0 +1,37 @@
+{{ partial "header" . }}
+<body>
+{{ partial "nav" . }}
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ .Title }}</h1>
+    {{ $showAuthor := ne ($.Param "displayauthor") false }}
+    {{ $author := .Params.author | default .Site.Params.author }}
+    <h2 class="subtitle is-5">
+      Last updated on {{ .Date.Format "January 02, 2006" }}
+      {{ if $showAuthor }} by {{ $author }}
+      {{ with .Params.tags }}
+        {{ $sorted := sort . }}
+        <span class="tags-inline" style="margin-left:0.1em;">
+          {{ range $sorted }}
+            {{ $tag := . }}
+            <a class="tag is-link is-light" href="{{ (printf "/tags/%s/" ($tag | urlize)) | relLangURL }}" style="margin-left:0.25em;">{{ $tag }}</a>
+          {{ end }}
+        </span>
+      {{ end }}
+      {{ end }}
+    </h2>
+    <div class="content">
+      {{ .Content }}
+<!-- start: Add mermaid min js file -->
+{{ if (.Params.mermaid) }}
+{{ partial "mermaid.html" }}
+{{ end }}
+<!-- end: Add mermaid min js file -->
+    </div>
+    {{ if (ne ($.Param "sharingicons") false) }}
+    {{ end }}
+  </div>
+</section>
+{{ partial "disqus" . }}
+{{ partial "footer" . }}
+</body>

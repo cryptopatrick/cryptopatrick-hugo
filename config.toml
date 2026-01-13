@@ -7,7 +7,7 @@ languageCode = "en-EN"
 metaDataFormat = "yaml"
 theme = "seamless"
 pagerSize = 10
-pagination.pagerSize = 50
+pagination.pagerSize = 20
 #paginate = 50
 #pagination.path = "page"
 path = "page"
@@ -22,9 +22,8 @@ enableEmoji = true
     post = "/blog/:year/:month/:day/:slug/"
     code = "/:slug/"
 
-#[taxonomies]
-#    tag = "tags"
-#    topic = "topics"
+[taxonomies]
+  tag = "tags"
 
 [author]
     name = "CryptoPatrick"
@@ -92,8 +91,13 @@ customCSS = ["css/customcode.css"]
 
 [[params.static_pages]]
 url = "/about/"
-tag = "About"
+tag = "About Me"
 icon = "fa-male"
+
+[[params.static_pages]]
+url = "/tags/"
+tag = "Tags"
+icon = "fa-tags"
 
 [[params.static_pages]]
 url = "https://100-days-of-vibe.vercel.app"
